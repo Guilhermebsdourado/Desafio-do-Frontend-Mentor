@@ -97,7 +97,7 @@ footer{
 }
 .social li i:hover{
     color: hsl(300, 69%, 71%);
-    border: solid hsl(300, 69%, 71%);
+    border: solid 1px hsl(300, 69%, 71%);
 }
 
 @media(max-width:1280px){
