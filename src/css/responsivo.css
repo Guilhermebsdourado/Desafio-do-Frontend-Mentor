@@ -1,0 +1,62 @@
+@media(max-width: 1280px) {
+    header {
+        margin: 60px 40px 90px;
+    }
+    header img {
+        width: 30vw;
+        display: flex;
+        justify-content: left;
+    }
+
+    body {
+        background: hsl(257, 40%, 49%) url(../images/bg-mobile.svg) no-repeat center top / contain;
+        overflow: auto;
+    }
+
+    .imagem img {
+        
+        display: flex;
+        justify-content: left;
+        min-width: 200px;
+        height: auto;
+    }
+
+    .main {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 60px 0;
+        gap: 140px;
+    }
+
+    .textos {
+        align-items: center;
+        text-align: center;
+    }
+
+    .textos h1 {
+        font-size: 40px;
+        font-weight: 600;
+        width: 95vw;
+    }
+
+    .textos .text {
+        display: flex;
+        flex-wrap: wrap;
+        width: 70vw;
+        font-size: 25px;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+
+    .button {
+        height: 8vh;
+        width: 40vw;
+        font-size: 22px;
+    }
+
+    .social {
+        justify-content: center;
+        align-items: center;
+        top: 160px;
+    }
+}
